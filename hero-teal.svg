@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="800" viewBox="0 0 1920 800" fill="none">
+  <title>Ornamen Teal untuk Hero Website</title>
+  <desc>Gelombang organik berlapis dan garis lengkung teal, memudar ke transparan di sisi kiri dan tepi bawah. Area kiri tersedia untuk teks.</desc>
+  <defs>
+    <linearGradient id="fade" x1="420" y1="350" x2="1800" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset=".36" stop-color="white" stop-opacity=".35"/><stop offset=".8" stop-color="white"/></linearGradient>
+    <linearGradient id="bottom" x2="0" y2="1"><stop offset=".65" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <mask id="fadeMask"><path fill="url(#fade)" d="M0 0h1920v800H0z"/></mask>
+    <mask id="bottomMask"><path fill="url(#bottom)" d="M0 0h1920v800H0z"/></mask>
+    <linearGradient id="main" x1="980" y1="600" x2="1840" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#2DD4BF" stop-opacity="0"/><stop offset=".48" stop-color="#14B8A6" stop-opacity=".36"/><stop offset="1" stop-color="#0F766E" stop-opacity=".85"/></linearGradient>
+    <linearGradient id="ribbon" x1="1020" y1="710" x2="1860" y2="70" gradientUnits="userSpaceOnUse"><stop stop-color="#5EEAD4" stop-opacity="0"/><stop offset=".55" stop-color="#0D9488" stop-opacity=".35"/><stop offset="1" stop-color="#115E59" stop-opacity=".85"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#2DD4BF" stop-opacity=".18"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="700" y1="650" x2="1850" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#14B8A6" stop-opacity="0"/><stop offset=".55" stop-color="#0D9488" stop-opacity=".4"/><stop offset="1" stop-color="#99F6E4" stop-opacity=".75"/></linearGradient>
+  </defs>
+  <g mask="url(#bottomMask)"><g mask="url(#fadeMask)">
+    <ellipse cx="1450" cy="300" rx="780" ry="570" fill="url(#glow)"/>
+    <path d="M760 800C840 620 1180 665 1210 415C1240 165 1400 85 1555 112C1730 143 1745 -90 1920 -100V800Z" fill="url(#main)"/>
+    <path d="M940 800C1000 620 1350 710 1390 450C1430 190 1600 355 1720 150C1790 30 1810 -60 1920 -90V800Z" fill="url(#ribbon)"/>
+    <path d="M1140 800C1280 610 1500 690 1555 470C1610 250 1750 445 1920 160V800Z" fill="url(#main)" opacity=".8"/>
+    <g stroke="url(#line)" stroke-width="1.4">
+      <path d="M560 740C860 420 1150 805 1260 395S1710 380 1900 -50"/>
+      <path d="M595 758C895 438 1185 823 1295 413S1745 398 1935 -32"/>
+      <path d="M630 776C930 456 1220 841 1330 431S1780 416 1970 -14"/>
+      <path d="M665 794C965 474 1255 859 1365 449S1815 434 2005 4"/>
+      <path d="M700 812C1000 492 1290 877 1400 467S1850 452 2040 22"/>
+    </g>
+    <g stroke="#0D9488" stroke-opacity=".2">
+      <circle cx="1560" cy="190" r="64"/><circle cx="1560" cy="190" r="79"/>
+      <circle cx="1120" cy="470" r="19"/><circle cx="1760" cy="580" r="38"/>
+      <path d="M1060 240h18m-9 -9v18M1690 395h20m-10 -10v20"/>
+    </g>
+    <g fill="#14B8A6" fill-opacity=".4"><circle cx="1450" cy="105" r="4"/><circle cx="1160" cy="315" r="3"/><circle cx="1665" cy="525" r="5"/><circle cx="1820" cy="315" r="3"/></g>
+  </g></g>
+</svg>
