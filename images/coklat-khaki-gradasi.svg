@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="1000" viewBox="0 0 250 1000">
+  <defs>
+    <linearGradient id="khakiFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B7355" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#A58B67" stop-opacity="0.82"/>
+      <stop offset="75%" stop-color="#C2AA82" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#D8C39A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="250" height="1000" fill="url(#khakiFade)"/>
+</svg>
